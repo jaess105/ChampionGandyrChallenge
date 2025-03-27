@@ -1,0 +1,1 @@
+{"version":3,"sources":["champion_gandyr_challenge/db.cljs"],"mappings":";AAEA,0CAAA,2CAAA,qDAAA,1IAAKA","names":["champion-gandyr-challenge.db/default-db"],"sourcesContent":["(ns champion-gandyr-challenge.db)\n\n(def default-db\n  {:name \"re-frame\"})\n"]}
