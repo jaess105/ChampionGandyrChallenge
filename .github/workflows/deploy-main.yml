@@ -21,23 +21,27 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          cache-dependency-path: champion-gandyr-challenge/package-lock.json
 
       - name: Install dependencies
         run: npm install
+        working-directory: champion-gandyr-challenge
 
-      - name: Run build process
-        run: |
-          npm run release
-          npm run style
-          npx shadow-cljs run shadow.cljs.build-report app target/build-report.html
+      - name: Run Build
+        run: npx shadow-cljs run shadow.cljs.build-report app target/build-report.html
+        working-directory: champion-gandyr-challenge
+
+      - name: Run Release
+        run: npm run release
+        working-directory: champion-gandyr-challenge
+
+      - name: Run Styling
+        run: npm run style
+        working-directory: champion-gandyr-challenge
 
       - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan gh-pages
-          git rm -rf .
-          cp -r resources/public/* .
-          git add .
-          git commit -m "Deploy site"
-          git push --force origin gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: champion-gandyr-challenge/resources/public
+          publish_branch: gh-pages
