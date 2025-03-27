@@ -40,12 +40,12 @@ var this__5343__auto____$1 = this;
 return this__5343__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__5344__auto__,null);
 }));
 
-(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__5345__auto__,k13837,else__5346__auto__){
+(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__5345__auto__,k21183,else__5346__auto__){
 var self__ = this;
 var this__5345__auto____$1 = this;
-var G__13841 = k13837;
-var G__13841__$1 = (((G__13841 instanceof cljs.core.Keyword))?G__13841.fqn:null);
-switch (G__13841__$1) {
+var G__21187 = k21183;
+var G__21187__$1 = (((G__21187 instanceof cljs.core.Keyword))?G__21187.fqn:null);
+switch (G__21187__$1) {
 case "hour":
 return self__.hour;
 
@@ -59,7 +59,7 @@ return self__.seconds;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k13837,else__5346__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k21183,else__5346__auto__);
 
 }
 }));
@@ -67,10 +67,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k13837,else__
 (champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__5363__auto__,f__5364__auto__,init__5365__auto__){
 var self__ = this;
 var this__5363__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__5366__auto__,p__13842){
-var vec__13843 = p__13842;
-var k__5367__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13843,(0),null);
-var v__5368__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__13843,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__5366__auto__,p__21188){
+var vec__21189 = p__21188;
+var k__5367__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21189,(0),null);
+var v__5368__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21189,(1),null);
 return (f__5364__auto__.cljs$core$IFn$_invoke$arity$3 ? f__5364__auto__.cljs$core$IFn$_invoke$arity$3(ret__5366__auto__,k__5367__auto__,v__5368__auto__) : f__5364__auto__.call(null,ret__5366__auto__,k__5367__auto__,v__5368__auto__));
 }),init__5365__auto__,this__5363__auto____$1);
 }));
@@ -84,10 +84,10 @@ return cljs.core.pr_sequential_writer(writer__5359__auto__,cljs.core.pr_writer,"
 return cljs.core.pr_sequential_writer(writer__5359__auto__,pr_pair__5361__auto__,"#champion-gandyr-challenge.models.time.Time{",", ","}",opts__5360__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"hour","hour",-555989214),self__.hour],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"minute","minute",-642875969),self__.minute],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"seconds","seconds",-445266194),self__.seconds],null))], null),self__.__extmap));
 }));
 
-(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__13836){
+(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__21182){
 var self__ = this;
-var G__13836__$1 = this;
-return (new cljs.core.RecordIter((0),G__13836__$1,3,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"hour","hour",-555989214),new cljs.core.Keyword(null,"minute","minute",-642875969),new cljs.core.Keyword(null,"seconds","seconds",-445266194)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__21182__$1 = this;
+return (new cljs.core.RecordIter((0),G__21182__$1,3,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"hour","hour",-555989214),new cljs.core.Keyword(null,"minute","minute",-642875969),new cljs.core.Keyword(null,"seconds","seconds",-445266194)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 }));
 
 (champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__5341__auto__){
@@ -124,10 +124,10 @@ return h__5154__auto____$1;
 }
 }));
 
-(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this13838,other13839){
+(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this21184,other21185){
 var self__ = this;
-var this13838__$1 = this;
-return (((!((other13839 == null)))) && ((((this13838__$1.constructor === other13839.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this13838__$1.hour,other13839.hour)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this13838__$1.minute,other13839.minute)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this13838__$1.seconds,other13839.seconds)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this13838__$1.__extmap,other13839.__extmap)))))))))));
+var this21184__$1 = this;
+return (((!((other21185 == null)))) && ((((this21184__$1.constructor === other21185.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this21184__$1.hour,other21185.hour)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this21184__$1.minute,other21185.minute)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this21184__$1.seconds,other21185.seconds)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this21184__$1.__extmap,other21185.__extmap)))))))))));
 }));
 
 (champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__5353__auto__,k__5354__auto__){
@@ -140,12 +140,12 @@ return (new champion_gandyr_challenge.models.time.Time(self__.hour,self__.minute
 }
 }));
 
-(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__5350__auto__,k13837){
+(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__5350__auto__,k21183){
 var self__ = this;
 var this__5350__auto____$1 = this;
-var G__13846 = k13837;
-var G__13846__$1 = (((G__13846 instanceof cljs.core.Keyword))?G__13846.fqn:null);
-switch (G__13846__$1) {
+var G__21192 = k21183;
+var G__21192__$1 = (((G__21192 instanceof cljs.core.Keyword))?G__21192.fqn:null);
+switch (G__21192__$1) {
 case "hour":
 case "minute":
 case "seconds":
@@ -153,26 +153,26 @@ return true;
 
 break;
 default:
-return cljs.core.contains_QMARK_(self__.__extmap,k13837);
+return cljs.core.contains_QMARK_(self__.__extmap,k21183);
 
 }
 }));
 
-(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__5351__auto__,k__5352__auto__,G__13836){
+(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__5351__auto__,k__5352__auto__,G__21182){
 var self__ = this;
 var this__5351__auto____$1 = this;
-var pred__13847 = cljs.core.keyword_identical_QMARK_;
-var expr__13848 = k__5352__auto__;
-if(cljs.core.truth_((pred__13847.cljs$core$IFn$_invoke$arity$2 ? pred__13847.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"hour","hour",-555989214),expr__13848) : pred__13847.call(null,new cljs.core.Keyword(null,"hour","hour",-555989214),expr__13848)))){
-return (new champion_gandyr_challenge.models.time.Time(G__13836,self__.minute,self__.seconds,self__.__meta,self__.__extmap,null));
+var pred__21193 = cljs.core.keyword_identical_QMARK_;
+var expr__21194 = k__5352__auto__;
+if(cljs.core.truth_((pred__21193.cljs$core$IFn$_invoke$arity$2 ? pred__21193.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"hour","hour",-555989214),expr__21194) : pred__21193.call(null,new cljs.core.Keyword(null,"hour","hour",-555989214),expr__21194)))){
+return (new champion_gandyr_challenge.models.time.Time(G__21182,self__.minute,self__.seconds,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__13847.cljs$core$IFn$_invoke$arity$2 ? pred__13847.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"minute","minute",-642875969),expr__13848) : pred__13847.call(null,new cljs.core.Keyword(null,"minute","minute",-642875969),expr__13848)))){
-return (new champion_gandyr_challenge.models.time.Time(self__.hour,G__13836,self__.seconds,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_((pred__21193.cljs$core$IFn$_invoke$arity$2 ? pred__21193.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"minute","minute",-642875969),expr__21194) : pred__21193.call(null,new cljs.core.Keyword(null,"minute","minute",-642875969),expr__21194)))){
+return (new champion_gandyr_challenge.models.time.Time(self__.hour,G__21182,self__.seconds,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((pred__13847.cljs$core$IFn$_invoke$arity$2 ? pred__13847.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"seconds","seconds",-445266194),expr__13848) : pred__13847.call(null,new cljs.core.Keyword(null,"seconds","seconds",-445266194),expr__13848)))){
-return (new champion_gandyr_challenge.models.time.Time(self__.hour,self__.minute,G__13836,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_((pred__21193.cljs$core$IFn$_invoke$arity$2 ? pred__21193.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"seconds","seconds",-445266194),expr__21194) : pred__21193.call(null,new cljs.core.Keyword(null,"seconds","seconds",-445266194),expr__21194)))){
+return (new champion_gandyr_challenge.models.time.Time(self__.hour,self__.minute,G__21182,self__.__meta,self__.__extmap,null));
 } else {
-return (new champion_gandyr_challenge.models.time.Time(self__.hour,self__.minute,self__.seconds,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__5352__auto__,G__13836),null));
+return (new champion_gandyr_challenge.models.time.Time(self__.hour,self__.minute,self__.seconds,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__5352__auto__,G__21182),null));
 }
 }
 }
@@ -184,10 +184,10 @@ var this__5356__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"hour","hour",-555989214),self__.hour,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"minute","minute",-642875969),self__.minute,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"seconds","seconds",-445266194),self__.seconds,null))], null),self__.__extmap));
 }));
 
-(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__5342__auto__,G__13836){
+(champion_gandyr_challenge.models.time.Time.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__5342__auto__,G__21182){
 var self__ = this;
 var this__5342__auto____$1 = this;
-return (new champion_gandyr_challenge.models.time.Time(self__.hour,self__.minute,self__.seconds,G__13836,self__.__extmap,self__.__hash));
+return (new champion_gandyr_challenge.models.time.Time(self__.hour,self__.minute,self__.seconds,G__21182,self__.__extmap,self__.__hash));
 }));
 
 (champion_gandyr_challenge.models.time.Time.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__5348__auto__,entry__5349__auto__){
@@ -224,16 +224,24 @@ return (new champion_gandyr_challenge.models.time.Time(hour,minute,seconds,null,
 /**
  * Factory function for champion-gandyr-challenge.models.time/Time, taking a map of keywords to field values.
  */
-champion_gandyr_challenge.models.time.map__GT_Time = (function champion_gandyr_challenge$models$time$map__GT_Time(G__13840){
-var extmap__5385__auto__ = (function (){var G__13850 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__13840,new cljs.core.Keyword(null,"hour","hour",-555989214),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"minute","minute",-642875969),new cljs.core.Keyword(null,"seconds","seconds",-445266194)], 0));
-if(cljs.core.record_QMARK_(G__13840)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__13850);
+champion_gandyr_challenge.models.time.map__GT_Time = (function champion_gandyr_challenge$models$time$map__GT_Time(G__21186){
+var extmap__5385__auto__ = (function (){var G__21196 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__21186,new cljs.core.Keyword(null,"hour","hour",-555989214),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"minute","minute",-642875969),new cljs.core.Keyword(null,"seconds","seconds",-445266194)], 0));
+if(cljs.core.record_QMARK_(G__21186)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__21196);
 } else {
-return G__13850;
+return G__21196;
 }
 })();
-return (new champion_gandyr_challenge.models.time.Time(new cljs.core.Keyword(null,"hour","hour",-555989214).cljs$core$IFn$_invoke$arity$1(G__13840),new cljs.core.Keyword(null,"minute","minute",-642875969).cljs$core$IFn$_invoke$arity$1(G__13840),new cljs.core.Keyword(null,"seconds","seconds",-445266194).cljs$core$IFn$_invoke$arity$1(G__13840),null,cljs.core.not_empty(extmap__5385__auto__),null));
+return (new champion_gandyr_challenge.models.time.Time(new cljs.core.Keyword(null,"hour","hour",-555989214).cljs$core$IFn$_invoke$arity$1(G__21186),new cljs.core.Keyword(null,"minute","minute",-642875969).cljs$core$IFn$_invoke$arity$1(G__21186),new cljs.core.Keyword(null,"seconds","seconds",-445266194).cljs$core$IFn$_invoke$arity$1(G__21186),null,cljs.core.not_empty(extmap__5385__auto__),null));
 });
 
+champion_gandyr_challenge.models.time.to_seconds = (function champion_gandyr_challenge$models$time$to_seconds(p__21197){
+var map__21198 = p__21197;
+var map__21198__$1 = cljs.core.__destructure_map(map__21198);
+var hour = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__21198__$1,new cljs.core.Keyword(null,"hour","hour",-555989214));
+var minute = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__21198__$1,new cljs.core.Keyword(null,"minute","minute",-642875969));
+var seconds = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__21198__$1,new cljs.core.Keyword(null,"seconds","seconds",-445266194));
+return (((hour * (3600)) + (minute * (60))) + seconds);
+});
 
 //# sourceMappingURL=champion_gandyr_challenge.models.time.js.map

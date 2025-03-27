@@ -4,8 +4,8 @@ var suffixes = new cljs.core.PersistentArrayMap(null, 3, [(1),"st",(2),"nd",(3),
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(n),cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$3(suffixes,n,"th"))].join('');
 });
 champion_gandyr_challenge.views.position_style = (function champion_gandyr_challenge$views$position_style(index){
-var G__13855 = index;
-switch (G__13855) {
+var G__21208 = index;
+switch (G__21208) {
 case (0):
 return "bg-yellow-950 border-4 border-yellow-400 text-yellow-200";
 
