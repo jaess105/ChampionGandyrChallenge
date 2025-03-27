@@ -5,9 +5,11 @@
 		"watch": "npx shadow-cljs watch app browser-test karma-test",
 		"release": "npx shadow-cljs release app",
 		"build-report": "npx shadow-cljs run shadow.cljs.build-report app target/build-report.html",
-		"style": "npx @tailwindcss/cli -i src/css/styles.css -o ./resources/public/css/compiled/output.css --watch"
+		"style": "npx @tailwindcss/cli -i src/css/styles.css -o ./resources/public/css/compiled/output.css --watch",
+		"gh-pages": "npx gh-pages -d resources/public/"
 	},
 	"dependencies": {
+		"gh-pages": "^6.3.0",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
 		"tailwindcss": "^4.0.17"
