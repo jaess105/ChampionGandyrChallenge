@@ -1,6 +1,7 @@
 (ns champion-gandyr-challenge.subs
   (:require
-   [re-frame.core :as rf]))
+   [re-frame.core :as rf]
+   [champion-gandyr-challenge.models.time :as time]))
 
 (rf/reg-sub
  ::name
@@ -10,4 +11,6 @@
 (rf/reg-sub
  :score-board
  (fn [db _]
-   (:score-board db)))
+   (sort-by
+    #(time/to-seconds (:time %))
+    (:score-board db))))
