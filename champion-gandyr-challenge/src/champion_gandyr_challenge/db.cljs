@@ -4,7 +4,7 @@
 
 
 (def ^:private score-board
-  [{:name "Nibeltin" :time (Time. 1 18 16)}
+  [{:name "Nibeltin" :time (Time. 1 18 13)}
    {:name "Testy3" :time (Time. 10 5 20)}])
 
 (def default-db
