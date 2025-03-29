@@ -4,18 +4,8 @@
 
 
 (def ^:private score-board
-  [{:name "Testy2" :time (Time. 5 5 20)}
-   {:name "Testy3" :time (Time. 10 5 20)}
-   {:name "Testy4" :time (Time. 50 5 20)}
-   {:name "Testy1" :time (Time. 0 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}
-   {:name "Testyn" :time (Time. 60 5 20)}])
+  [{:name "Nibeltin" :time (Time. 1 18 16)}
+   {:name "Testy3" :time (Time. 10 5 20)}])
 
 (def default-db
   {:name "re-frame"
